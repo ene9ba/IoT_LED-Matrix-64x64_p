@@ -2,19 +2,20 @@
 LED-Matrix Display driven by Raspi PICOW  comchain openHAB - mqtt - wifi - display develoed with platformio
 IoT RGB-Matrixdisplay to visualize Temperatures of HOT Tub via WiFi over MQTT to openHAB
 
-#Goal of this project
+# Goal of this project
 To use a 64x64 RGB matrix display for visualisation of temperature, time and systemstate of my HotTub (whrilpool).
 
 The project consits of three parts:
 
-##Part 1: 
+## Part 1: 
 Hardwaredesign controller and powershifting 3.3 V to 5 V 
 
-##Part 2: 
+## Part 2: 
 Softwaredevelopment matrix control, connection to Wifi, connection to mqtt 
 
-##Part 3: 3D Case design
+## Part 3: 3D Case design
 
+## Info:
 The LED-Panel is integrated in a self designed case with integrated power supply. Communication to SMART-Home is via WiFi and MQTT to opnHAB.
 The contoller I'm using is Raspberry Pi PICO RP2040 because it meets the requriements for WiFi and control the LED-panel flickerfree using the realtine stat machine on the chip.
 
